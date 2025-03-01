@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+.skills-container {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #0f0c29);
+    background-size: 300% 300%;
+    animation: gradientAnimation 6s ease infinite;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Background Animation */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Skills Title */
+.skills-container h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+    letter-spacing: 1.5px;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Skill Card */
+.skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    text-align: center;
+    color: #333;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Skill Name */
+.skill-card h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #16a085;
+}
+
+/* Progress Bar Container */
+.skill-progress {
+    width: 100%;
+    background: #ddd;
+    border-radius: 10px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+/* Progress Bar Fill */
+.skill-progress .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #1abc9c, #16a085);
+    transition: width 1s ease-in-out;
+}
+
+/* Skill Percentage */
+.skill-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2c3e50;
+}
