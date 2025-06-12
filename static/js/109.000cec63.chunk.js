@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmyportfolio=self.webpackChunkmyportfolio||[]).push([[109],{109:(e,s,r)=>{r.r(s),r.d(s,{default:()=>n});r(43);var a=r(579);const n=()=>(0,a.jsxs)("div",{className:"resume-container",children:[(0,a.jsx)("h1",{children:"My Resume"}),(0,a.jsxs)("p",{children:["Download my resume ",(0,a.jsx)("a",{href:"/Roshan_Chavan Resume-2.pdf",download:!0,children:"here"}),"."]})]})}}]);
+//# sourceMappingURL=109.000cec63.chunk.js.map
